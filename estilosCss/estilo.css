@@ -1,15 +1,32 @@
 body{
-    background-color: #CF463A;
+    background-image: url(./recursos/FondoGalaxia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover; 
+    background-position: center;
+    font-family: 'Catamaran', sans-serif;
     
 }
 
+
+    
+  
+
 .logo{
-    background-color: aliceblue;
+    width: 5em;
+    height: 5em;
+    color: transparent;
+    background-image: url(./recursos/Logo-Teatro-Las-Grutas-circulo.png);
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
     position: fixed;
-
+    top: 0;
+    left: 0;
+  
 }
 
 nav{  
@@ -24,11 +41,15 @@ nav{
     border-radius: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: red;
+    background-color: black;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+nav>ul>li {
+    color: aliceblue;
 }
 
 .tituloDeLaPagina{
