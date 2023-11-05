@@ -1,0 +1,49 @@
+body{
+    background-color: #CF463A;
+    
+}
+
+.logo{
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    position: fixed;
+
+}
+
+nav{  
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.menuDeNavegacion{
+    list-style: none;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tituloDeLaPagina{
+    background-color: #9C4735;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.textoDescripcionPrincipal{
+    text-align: center;
+    color: #332B2B;
+    display: flex;  
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
