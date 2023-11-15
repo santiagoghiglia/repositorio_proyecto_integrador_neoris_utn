@@ -333,9 +333,10 @@ h4{
     align-content: center;
     border: 3px solid #BF7E45;
     margin-top: 1em;
-    scroll-margin-top: 2.5em;
+    scroll-margin-top: 3em;
     margin-bottom: 2px;
     text-align: center;
+    
 }
 
 
@@ -359,6 +360,7 @@ button {
     text-align: center;
     text-transform: uppercase;
     margin: 1em;
+    color: #F2C894;
 }
 .divForm2{
     
@@ -372,8 +374,12 @@ button {
     border-right: 3px solid #BF7E45;
     border-bottom: 3px solid #BF7E45;
     align-content: center;
+    
 }
 
+label{
+    color: #F2C894;
+}
 .divForm3{
     
     display: flex;
@@ -391,12 +397,25 @@ button {
 
 .oculto{
     display: none;
+    width: 33.333%;
+    margin-left: 33.33%;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #730217;
+    align-items: center;
+    align-content: center;
+    border: 3px solid #BF7E45;
+    margin-top: 1em;
+    scroll-margin-top: 2.5em;
+    margin-bottom: 2px;
+    text-align: center;
 }
 
 
 
 #btnEnviar{
 display: none;
+color: #F2C894;
 }
 
 footer {
@@ -410,6 +429,23 @@ footer {
     box-sizing: border-box;
     margin-top: 1em;
     
+}
+
+#resumenFormularioProcedimiento{
+    display: flex;
+    width: 33.333%;
+    margin-left: 33.33%;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #730217;
+    border: 3px solid #BF7E45;
+    margin-top: 1em;
+    margin-bottom: 2px;
+    text-align: center;
+    color: #F2C894;
+   
+
+
 }
 
 footer > div {
@@ -431,7 +467,22 @@ footer > div > p {
     color: #BF7E45;
 }
 
+.divForm1{
+    scroll-margin-top: 2.5em;
+}
 
+.mapouter{
 
-
-
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #730217;
+    align-items: center;
+    align-content: center;
+    border: 6px solid #BF7E45;
+    margin-top: 1em;
+    scroll-margin-top: 2.5em;
+   
+}
