@@ -471,18 +471,3 @@ footer > div > p {
     scroll-margin-top: 2.5em;
 }
 
-.mapouter{
-
-    width: 50%;
-    margin-left: 25%;
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
-    background-color: #730217;
-    align-items: center;
-    align-content: center;
-    border: 6px solid #BF7E45;
-    margin-top: 1em;
-    scroll-margin-top: 2.5em;
-   
-}
