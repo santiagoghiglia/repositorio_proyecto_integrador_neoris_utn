@@ -4,89 +4,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="Teatro, obra, entretenimiento, las grutas, rio negro"> 
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Corinthia:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/estilosCss/estilo.css">
-    <link rel="stylesheet" type="text/css" href="/estilosCss/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Catamaran&family=Corinthia:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <script type="text/javascript" src="./js/main.js" defer></script>
     <title>Teatro las grutas</title>
 </head>
 <body>
+    <img class="logoTeatro" src="./estilosCss/recursos/Logo-Teatro-Las-Grutas-circulo.png" alt="Logo-Teatro-Las-Grutas-circulo">
     <header>
-        <h1 class="logo">Teatro</h1>
-        <nav>
-            <ul class="menuDeNavegacion">
-                <li>Nosotros</li>
-                <li>El Teatro</li>
-                <li>Servicios</li>
-                <li>Preguntas Frecuentes</li>
-            </ul>
+        <nav class="menuDeNavegacion">
+            <ul class="listaMenu">
+               
+                <li><a href="#contacto">Nosotros</a></li>
+                <li><a href="#elTeatro">El Teatro</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#preguntasFrecuentes">Preguntas Frecuentes</a></li>
+                <li><a href="#cartelera">obras</a></li>
+             </ul>
         </nav>
     </header>
     <main>
-        <h2 class="tituloDeLaPagina">TEATRO LAS GRUTAS</h2>
+        <div class="titulo">
+            <h2 class="teatroLasGrutas" id="contacto" >TEATRO LAS GRUTAS</h2>
+        </div>
 
-        <article class="textoDescripcionPrincipal">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus aperiam sint excepturi odio praesentium ex. Distinctio beatae aliquid, repellat in nesciunt eius praesentium maxime, ducimus quia doloremque, dolore dolorum minus? 
+        <article class="descripcionPrincipal">
+            <p>¡Bienvenido al Teatro Las Grutas, el escenario donde la magia cobra vida en el corazón de la majestuosa Patagonia!
+                Sumérgete en un mundo de emociones y experiencias únicas mientras te transportamos a través de interpretaciones teatrales cautivadoras en un entorno tan extraordinario como nuestras propias raíces.
+                En el Teatro Las Grutas, no solo disfrutarás de actuaciones excepcionales, sino que también te sumergirás en la belleza natural que nos rodea.
+                Con vistas impresionantes a Las Grutas y la energía única de la Patagonia como telón de fondo,
+                cada visita se convierte en una experiencia teatral inolvidable.
+                Únete a nosotros para celebrar la magia del arte en un escenario donde la naturaleza se encuentra con la creatividad. 
+                ¡Descubre el Teatro Las Grutas, donde la cultura y la naturaleza se entrelazan para ofrecerte momentos inolvidables!</p>
         </article>
-
-        <section cartelera>
-           <div><img src="" alt="obra1"></div>
-           <div><img src="" alt="obra2"></div>
-           <div><img src="" alt="obra3"></div>
+            <h3 class="tituloSeccion" id="cartelera">cartelera</h3>
+        <section class="cartelera">
+           <img src="./imagenes/GATO PETERS HISTORIA.jpg"  alt="obra1">
+           <img src="./imagenes/HUGO VARELA HISTORIA.jpg" alt="obra2">
+           <img src="./imagenes/Navidad-Historia-Redes.jpg" alt="obra3">
         </section>  
 
-        <section elTeatro>
-            <div><img src="" alt="imagen1"></div>
-            <div><img src="" alt="video1"></div>
-            <div><img src="" alt="imagen2"></div>
-            <div><img src="" alt="imagen3"></div>
-            <div><img src="" alt="video2"></div>
-            <div><img src="" alt="imagen4"></div>
+        <h3 class="tituloSeccion" id="elTeatro">el teatro</h3>
+        <section class="elTeatro">
+              <img src="./imagenes/IMG_0007.jpg" alt="imagen1">
+              <img src="./imagenes/IMG_0018.jpg" alt="imagen2">
+              <img src="./imagenes/IMG_9638.jpg" alt="imagen3">
+              <img src="./imagenes/IMG_9638.jpg" alt="imagen4">
+              <img src="./imagenes/IMG_9931.jpg" alt="imagen5">
+              <img src="./imagenes/IMG_9948.jpg" alt="imagen6">
 
         </section> 
 
-        <section servicios>
-            <h3>Servicios</h3>
-            <ul>Producción</ul>
-            <ul>Sonido</ul>
-            <ul>Iluminación</ul>
-            <ul>Diseño Grafico</ul>
+        <h3 class="tituloSeccion">Servicios</h3>
+        <section class="servicios" id="servicios">
+            <ul>
+                <li>
+                    <h4>Producción</h4>
+                    <p>Servicios integrales para la producción de eventos, desde la planificación y coordinación logística hasta la gestión de proveedores y la ejecución del evento en sí. Nos enfocamos en crear experiencias memorables y sin contratiempos para garantizar el éxito de cada ocasión.</p>            
+                </li>
+                <li>
+                    <h4>Sonido</h4>
+                    <p>Servicios especializados en producción de sonido para eventos teatrales, incluyendo diseño y montaje de sistemas de audio adaptados al espacio, así como la ingeniería de sonido en vivo para garantizar una calidad acústica excepcional durante las representaciones. Nos centramos en realzar la experiencia auditiva en el contexto teatral.</p>  
+                </li>
+                <li>
+                    
+                    <h4>Iluminación</h4>
+                    <p>Somos especialistas en producción de iluminación para eventos teatrales, que abarcan desde el diseño y implementación de esquemas luminotécnicos personalizados hasta la operación técnica durante las actuaciones. Nos centramos en realzar la atmósfera visual, destacando la escenografía y mejorando la experiencia del espectáculo en el teatro.</p>
+                </li>
+                <li>
+                    <h4>Diseño Grafico</h4>
+                    <p>creación de material promocional como carteles, programas y visuales escénicos. Nuestro enfoque se orienta a potenciar la identidad visual del evento, captar la esencia de la producción y atraer al público de manera impactante.</p>
+                </li>               
+            </ul>
+            <a href="">solicita tu presupuesto aqui</a>
         </section>    
 
      
-        <section carteleraConDescripcion>
-            <div>
-                <img src="" alt="obra1">    
-                <h3>tituloObra1</h3>
-                <article>descripcionObra</article>
+        <section class="carteleraConDescripcion">
+            <div class="contenedorCartelera">
+                <img src="./imagenes/1080X1080 GATO PETERS - copia.jpg" alt="obra1"> 
+                <div class="contenedorDescripcionCartelera">
+                    <h4>alpargato</h4>
+                    <p>Sumérgete en el universo mágico de Gato Peters, donde la comedia trasciende límites y la genialidad se encuentra en cada risa. Una obra que fusiona el ingenio del humor con la profundidad de la reflexión.</p>    
+                    <a href="https://www.ticketek.com.ar/pedro-aznar/teatro-coliseo" target="_blank">comprar</a>
+                </div>
             </div>
-                <img src="" alt="obra2">    
-                <h3>tituloObra2</h3>
-                <article>descripcionObra2</article>
-            <div>
-                <img src="" alt="obra3">    
-                <h3>tituloObra3</h3>
-                <article>descripcionObra3</article>
+            <div class="contenedorCartelera">
+                <img src="./imagenes/HUGO VARELA 1080X1080.jpg" alt="obra2"> 
+                <div class="contenedorDescripcionCartelera">
+                    <h4>de veraneo en las grutas</h4>
+                    <p>Explora el ingenio irreverente de Hugo Varela en esta obra teatral que combina humor sagaz con aguda crítica social. Una experiencia única donde risas y reflexión convergen en un escenario de genialidad cómica.</p>
+                    <a href="https://www.ticketek.com.ar/tk/teatro-coliseo" target="_blank">comprar</a>
+                </div>
+            </div>        
+            <div class="contenedorCartelera">
+                <img src="./imagenes/magica-_navidad 1080x1080.jpeg" alt="obra3">
+                <div class="contenedorDescripcionCartelera"> 
+                <h4>tituloObra3</h4>
+                <p>Alegría, música festiva y mensajes de amor universal. Una celebración teatral que captura el espíritu navideño en cada acto, dejando una huella cálida en el corazón del público</p>   
+                <a href="https://www.ticketek.com.ar/ciro-y-los-persas/anfiteatro-municipal" target="_blank">comprar</a>    
+                </div>
             </div>                        
         </section>
-
-        <section preguntasFreq>
-            <h2>Preguntas Frecuentes</h2>
-            <ul>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque hic error porro doloribus pariatur, aperiam debitis aspernatur temporibus consectetur at esse! Voluptatibus cumque quaerat natus illo, nulla autem enim dignissimos.</ul>
-            <ul>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem recusandae molestias reprehenderit sint accusantium hic harum eum. Eos autem unde quisquam. Explicabo excepturi tempore vitae natus a sapiente repudiandae obcaecati.</ul>
-            <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis nam modi consectetur voluptatum, necessitatibus commodi repellendus nulla excepturi accusantium, molestias asperiores magnam quasi dicta dolores cum, voluptates esse ad ipsam!</ul>
-            <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque error sit eos natus ullam suscipit delectus aspernatur facere dolorum similique tenetur, ad magni quasi ipsa aperiam quia maiores incidunt nulla.</ul>
-            <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste debitis inventore modi similique? Impedit, fugiat repellendus. Natus vel ex perspiciatis, incidunt molestias doloremque reiciendis quasi deserunt nisi magnam accusantium porro.</ul>
+        <section class="preguntasFrecuentes" id="preguntasFrecuentes">
+            <h3>Preguntas Frecuentes</h3>
+            <div class="pregunta">
+                <h4>¿Cómo puedo comprar entradas para los eventos del teatro?</h4>
+                <p>Podes comprar tus entradas directamente en nuestra página web, en la taquilla del teatro o a través de nuestros distribuidores autorizados.</p>
+            </div>
+            <div class="pregunta">
+                <h4>¿Cuál es la política de reembolso en caso de que no pueda asistir a un evento?</h4>
+                <p>Las entradas no son reembolsables, pero ofrecemos la opción de cambiar la fecha de tu boleto para otro evento, sujeto a disponibilidad y términos específicos.</p>
+            </div>
+            <div class="pregunta">
+                <h4> ¿El teatro tiene acceso para personas con discapacidad?</h4>
+                <p>Sí, nuestro teatro está equipado con instalaciones accesibles. Si necesitas asistencia adicional, por favor, ponte en contacto con nuestro personal antes de tu visita</p>
+            </div>
+            <div class="pregunta">
+                <h4>¿Hay descuentos disponibles para grupos o estudiantes?</h4>
+                <p> Sí, ofrecemos descuentos para grupos y estudiantes en determinados eventos. Ponte en contacto con nuestra taquilla para obtener más información sobre tarifas especiales.</p>
+            </div>
+            <div class="pregunta">
+                <h4>¿Se permite la entrada a niños pequeños a los eventos?</h4>
+                <p>La política de admisión de niños puede variar según el evento. Consulta la información específica del evento en nuestra página web o ponte en contacto con nosotros para obtener detalles sobre la política de edad y restricciones.</p>
+            </div>    
         </section> 
-
+        <form id="formularioProcedimiento">
+            <div class="divForm1 activo">
+                <h4>información</h4>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido">
+                <label for="edad">Edad</label>
+                <input type="text" id="edad" name="edad">
+            </div>
+            <div class="divForm2 oculto">
+                <h4>contacto</h4>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="telefono">telefono:</label>
+                <input type="text" id="telefono" name="telefono">
+            </div>
+            <div class="divForm3 oculto">
+                <h4>¿que necesitas?</h4>
+                <textarea name="presupuesto" id="presupuesto"></textarea>
+                <label for="cuando">cuando:</label>
+                <input type="date" id="fecha" name="fecha">
+                
+                
+            </div>
+        </form>
+        <button id="btnSiguiente" class="activo">Siguiente</button>
+        <button id="btnEnviar" class="oculto">Enviar</button>
+        <div id="resumenFormularioProcedimiento"></div>
+        </div>            
     </main>
     <footer>
-        <ul>
-            <li>enlace facebook</li>
-            <li>enlace intsagram</li>
-            <li>enlace tripadvisor</li>
-        </ul>
+        <div>
+            <i class="lab la-whatsapp iconoGrande"></i>
+            <p>123-4568956</p>
+            <a href="https://www.facebook.com/nuevoteatrolasgrutas" target="_blank"><i class="lab la-facebook-f iconoGrande"></i></a>
+            <p>/teatroLasGrutas</p>
+            <a href="https://www.instagram.com/teatrolasgrutas/" target="_blank"><i class="lab la-instagram iconoGrande"></i></a>
+            <p>@teatroLasGrutas</p>
+            <a href="https://www.tripadvisor.com/Attraction_Review-g312741-d311763-Reviews-Teatro_Colon-Buenos_Aires_Capital_Federal_District.html" target="_blank"><i class="lab la-tripadvisor iconoGrande"></i></a>
+        </div>
     </footer>
 </body>
 </html>
+
+

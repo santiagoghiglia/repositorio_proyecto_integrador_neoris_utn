@@ -1,70 +1,437 @@
-body{
-    background-image: url(./recursos/FondoGalaxia.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover; 
-    background-position: center;
+*{
+    padding: 0;
+    margin: 0;
     font-family: 'Catamaran', sans-serif;
-    
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
 
 
-    
-  
-
-.logo{
-    width: 5em;
-    height: 5em;
-    color: transparent;
-    background-image: url(./recursos/Logo-Teatro-Las-Grutas-circulo.png);
-    background-position: center;
-    background-size: cover;
-    background-color: transparent;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-  
+body{
+   background-color:#40010D;
 }
 
-nav{  
-    justify-content: center;
-    padding-left: 100px;
-    padding-right: 100px;
-
+h1{
+    display: none;
 }
 
-.menuDeNavegacion{
+ul {
     list-style: none;
-    border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: black;
+}
+
+.logoTeatro{
+    position: fixed;
+    width: 110px;
+    height: 130px;
+    top: -5px;
+    left: 60px;
+    z-index: 100;
+}
+
+
+.menuDeNavegacion{    
+    width: 100%;
+    height: 2.5em;
+    background-color: #730217;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    border: 3px solid;
+    border-color: #BF7E45;
+    z-index: 99;
+    box-sizing: border-box;
+  
+}
+
+.listaMenu{
+ display: flex;
+ justify-content: space-around;
+ width: 1000px; 
+}
+
+
+
+.listaMenu > li > a {
+    color: #BF7E45;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+
+.titulo{
+    
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
-
-nav>ul>li {
-    color: aliceblue;
-}
-
-.tituloDeLaPagina{
-    background-color: #9C4735;
+    box-sizing: border-box;
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-wrap: wrap;   
+    align-items: center; 
     justify-content: center;
+    align-content: center;
+    width: 50%;
+    height: 3.5em;
+    background-color: #A60311;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 100px;   
+    border: 3px solid #BF7E45;
+    }
+    
+
+.teatroLasGrutas{
+    
+    font-size: 60px;
+    color: #BF7E45; 
+    scroll-margin-top: .6em;
 }
 
-.textoDescripcionPrincipal{
+.descripcionPrincipal {
+    box-sizing: border-box;
+    background-color: #A60311;
+    top: 1em;
+    width: 50%;
+    height: 20em;
+    margin-left: 25%;
+    margin-top: 10em;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #F2C894;
     text-align: center;
-    color: #332B2B;
-    display: flex;  
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+    border: 3px solid #BF7E45 ; 
+   
 }
+
+.tituloSeccion{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-left: 25%;
+    margin-top: 1em;
+    width: 50%;
+    height: 1.5em;
+    background-color:#730217;
+    border-top : 3px solid #BF7E45 ;
+    border-left: 3px solid #BF7E45 ;
+    border-right : 3px solid #BF7E45 ; 
+    color:#BF7E45 ;
+    
+    
+}
+
+.cartelera {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;    
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    background-color: #730217;
+    width: 50%;
+    margin-left: 25%; 
+    height: 20em;  
+    border: 3px solid #BF7E45 ;
+    scroll-margin-top: 2.5em;
+}
+
+.cartelera > img {
+    height: 390px;
+    border: 1px solid #BF7E45;     
+}
+
+.elTeatro {
+    box-sizing: border-box;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch; 
+    background-color: #730217;   
+    border: 3px solid #BF7E45 ;
+    width: 50%;
+  
+}
+
+h3{
+    scroll-margin-top: 1.2em;
+}
+
+.elTeatro > img {
+    margin: 15px;
+    border: 1px solid #BF7E45;
+    width: 190px;
+    height: 190px;
+   
+}
+
+.servicios {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 25%;
+    background-color: #730217;
+    width: 50%;
+    text-align: center;
+    border: 3px solid #BF7E45;
+    padding: 1em;
+    scroll-margin-top: 5.5em;
+    
+    
+}
+
+h4{
+    text-transform: uppercase;
+    color: #BF7E45;
+    font-size: 1em;
+    font-weight: bold;
+   
+}
+
+.servicios > ul {
+    
+   
+    justify-content: center;
+   
+}
+.servicios > a {
+    color:#BF7E45;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 15px;
+    border: 1px solid #BF7E45;
+    width: 190px;
+    height: 120;
+   
+   
+}
+
+.servicios > ul > li > p {
+    color:#F2C894;
+    border: 1px solid #BF7E45;
+}
+
+.carteleraConDescripcion {
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #730217;
+    align-items: center;
+    align-content: center;
+    border: 3px solid #BF7E45;
+    margin-top: 1em;
+    
+}
+
+
+.carteleraConDescripcion > div > img {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid #BF7E45;
+}
+
+.contenedorCartelera {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    height: 320px;
+    box-sizing: border-box;
+    border: 1px solid #BF7E45;
+    position:relative
+}
+
+.contenedorCartelera > div > p {
+    color: #F2C894;
+
+}
+
+.contenedorDescripcionCartelera {
+    position:absolute;
+    left: 44%;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.contenedorDescripcionCartelera > a {
+    color: #BF7E45;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #BF7E45;
+    padding: 3px;
+}
+
+.preguntasFrecuentes{
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #730217;
+    align-items: center;
+    align-content: center;
+    border: 3px solid #BF7E45;
+    margin-top: 1em;
+    scroll-margin-top: 2.5em;
+}
+
+.preguntasFrecuentes > h3 {
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;    
+    text-transform: uppercase;
+    align-items: center;
+    text-align: center;
+    color: #BF7E45;
+    font-size: 2em;
+    font-weight: bold;
+    border-bottom: 3px solid #BF7E45;
+    padding: auto;
+}
+
+.preguntasFrecuentes > div  {
+    margin: 1em;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #BF7E45;
+  
+}
+
+.preguntasFrecuentes > div > p {
+    color: #F2C894;   
+}
+
+.activo {
+    display: flex;
+    width: 33.333%;
+    margin-left: 33.33%;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-color: #730217;
+    align-items: center;
+    align-content: center;
+    border: 3px solid #BF7E45;
+    margin-top: 1em;
+    scroll-margin-top: 2.5em;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+
+
+.botones{
+    display: flex;
+    width: 33.333%;
+    margin-left: 33.33%;
+    box-sizing: border-box;
+    background-color: #730217;
+    box-sizing: border-box;
+    border-left: 3px solid #BF7E45;
+    border-right: 3px solid #BF7E45;
+    border-bottom: 3px solid #BF7E45;
+    align-content: center;
+}
+
+button {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 1em;
+}
+.divForm2{
+    
+    display: flex;
+    width: 33.333%;
+    margin-left: 33.33%;
+    box-sizing: border-box;
+    background-color: #730217;
+    box-sizing: border-box;
+    border-left: 3px solid #BF7E45;
+    border-right: 3px solid #BF7E45;
+    border-bottom: 3px solid #BF7E45;
+    align-content: center;
+}
+
+.divForm3{
+    
+    display: flex;
+    width: 33.333%;
+    margin-left: 33.33%;
+    box-sizing: border-box;
+    background-color: #730217;
+    box-sizing: border-box;
+    border-left: 3px solid #BF7E45;
+    border-right: 3px solid #BF7E45;
+    border-bottom: 3px solid #BF7E45;
+    align-content: center;
+}
+
+
+.oculto{
+    display: none;
+}
+
+
+
+#btnEnviar{
+display: none;
+}
+
+footer {
+    width: 100%;
+    height: 2.5em;
+    background-color: #730217;
+    display: flex;
+    justify-content:space-evenly;
+    border: 3px solid;
+    border-color: #BF7E45;
+    box-sizing: border-box;
+    margin-top: 1em;
+    
+}
+
+footer > div {
+    display: flex;
+    box-sizing: border-box;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+}
+footer > div > p {
+   
+    color: #F2C894;
+}
+
+
+.iconoGrande {
+    font-size: 2em;
+    color: #BF7E45;
+}
+
+
+
+
+
